@@ -1,0 +1,32 @@
+#about {
+  background: linear-gradient(90deg,rgba(0,0,0,0.7),rgba(0,0,0,0.9)), url(https://image.freepik.com/free-photo/javascript-code-computer-language-programming-internet-text-editor-components_73523-1353.jpg);
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, -100% 100vh);
+  /* clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%); */
+  padding-bottom: 5%;
+}
+@media (max-width: 1226px){
+  #about{
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%) !important;
+    padding-bottom: 0 !important;
+  }
+}
+.img-style {
+  height:200px;
+  border-radius: 50%;
+  border: 3px solid #e91e63;
+}
+.technology {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.technology span {
+  background: #5a6372;
+  margin-right: 5px;
+  margin-top: 5px;
+  border-radius: 3px;
+  padding: 3px 10px;
+  font-size: 13px;
+  height: 26px;
+  color: white;
+}

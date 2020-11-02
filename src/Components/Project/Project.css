@@ -1,0 +1,32 @@
+.special-section{
+    position: relative;
+    z-index: 5 !important;
+}
+.particles{
+    position: absolute !important;
+    top: 258%;
+    width: 98vw;
+    margin: 0 auto;
+    z-index: 1;
+}
+@media (max-width: 1024px){
+    .particles{
+        top: 265% !important;
+        display: none !important;
+    }
+    @media (max-width: 768px){
+        .particles{
+            top: 320% !important;
+        }
+    }
+    @media (max-width: 426px){
+        .particles{
+            top: 350% !important;
+        }
+    }
+    @media (max-width: 376px){
+        .particles{
+            top: 360% !important;
+        }
+    }
+}

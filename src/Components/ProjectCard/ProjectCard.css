@@ -1,0 +1,28 @@
+.service-container:hover {
+  text-decoration: none;
+}
+.serviceCard{
+  /* box-shadow: 3px 3px 13px gray; */
+  transition: all 1.5s;
+  cursor: pointer;
+}
+
+.serviceCard:hover{
+  /* transform: rotate3d(0,1,0,-180deg); */
+  transform: rotate3d(1,0,0,-30deg) scale(1.15) !important;
+  /* transform: rotate3d(1,0,0,-15deg) skew(5deg) scale(1.005); */
+  /* transform: rotate3d(0,0,1,-360deg); */
+  /* transform: rotate(-360deg); */
+}
+/* .serviceCard {
+  transition: all 1.3s;
+}
+.serviceCard:hover {
+  transform: scale(1);
+} */
+
+
+.icon-style {
+  font-size: 23px;
+}
+
