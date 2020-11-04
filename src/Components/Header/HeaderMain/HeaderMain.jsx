@@ -1,7 +1,7 @@
 import React from 'react';
 import './HeaderMain.css';
 import me from '../../../images/MMHK.jpg';
-import resume from "../../../images/MMHK's CV.pdf"
+import resume from "../../../images/MMHK's RESUME.pdf"
 import Typewriter from 'typewriter-effect';
 import Particle from './Particle';
 

@@ -28,7 +28,7 @@ const Contact = () => {
       <p className='text-center text-color font-weight-bold' data-aos="fade-up">Have a question or want to work together?</p>
       <div className="container-fluid px-4">
         <div id='contact-form' data-aos="zoom-out-up" className="mx-auto form-control w-50 shadow-lg p-4 rounded mt-3 contact-style">
-          <h4 className='text-center font-weight-bold pb-4'>Get In Tough</h4>
+          <h4 className='text-center font-weight-bold pb-4'>Get In Touched</h4>
           <form onSubmit={handleSubmit} className="form">
             <div className="form-group d-flex justify-content-center">
               <input type="text" className="form-control" name="name" autoComplete="off" id="exampleInputName" placeholder="Enter your name" required />
@@ -48,7 +48,7 @@ const Contact = () => {
           </form>
         </div>
       </div> 
-      <footer className="copyRight w-100 text-center text-white" style={{zIndex: '10',position: "relative"}} data-aos="fade-up">
+      <footer className="copyRight w-100 mt-3 text-center text-white" style={{zIndex: '10',position: "relative"}} data-aos="fade-up">
         <ContactLink/>
       </footer>
       <div className="footer-particles">
