@@ -7,7 +7,7 @@ import Particle from './Particle';
 
 const HeaderMain = () => {
   return (
-    <div id="home" style={{ height: '100vh', position: "relative" }} className='header-bg'>
+    <div id="home" style={{ height: '100vh', position: "relative", zIndex: '20' }} className='header-bg'>
       <header className="d-flex justify-content-center align-items-center">
         <div className="particle-section" data-aos="zoom-out-up" id="div">
           <img src={me} style={{ width: '20vw' }} className="img-fluid rounded" alt="MMHK"/>

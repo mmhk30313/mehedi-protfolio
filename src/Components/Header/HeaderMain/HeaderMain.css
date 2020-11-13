@@ -5,11 +5,13 @@
   /* width: fit-content; */
   /* height: 200px; */
 }
-
+.header{
+  z-index: 10 !important;
+}
 .particle-section {
   position: absolute;
     color: white;
-    top: 14%;
+    top: 11%;
     text-align: center;
 
 }

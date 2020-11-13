@@ -8,7 +8,7 @@
 .small-name {
     display: none;
 }
-@media (max-width: 355px){
+@media (max-width: 555px){
     .small-name { 
         display: block;
     }

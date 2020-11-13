@@ -35,9 +35,10 @@ const About = () => {
             <div className="technology mb-3">
               <span>JavaScript</span><span>React.js</span><span>REST API</span><span>C/C++</span><span>Java</span>
             </div>
-            <h4 className='text-danger'>I prefer not to work with</h4>
-            <div className="technology">
-              <span>PHP</span><span>Laravel</span><span>MySQL</span><span>Wordpress</span><span>jQuery</span></div>
+            {/* <h4 className='text-danger'>I prefer not to work with</h4> */}
+              {/* <div className="technology">
+                <span>PHP</span><span>Laravel</span><span>MySQL</span><span>Wordpress</span><span>jQuery</span>
+              </div> */}
             </div>
           </div>
     </div> 

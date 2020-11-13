@@ -51,12 +51,7 @@ const Contact = () => {
       <footer className="copyRight w-100 mt-3 text-center text-white" style={{zIndex: '10',position: "relative"}} data-aos="fade-up">
         <ContactLink/>
       </footer>
-      <div className="footer-particles">
-        <Particle particleParams={"footer"}/>
-        <Particle particleParams={"footer"}/>
-        <Particle particleParams={"footer"}/>
-        <Particle particleParams={"footer"}/>
-      </div>
+      
     </div>
   );
 };

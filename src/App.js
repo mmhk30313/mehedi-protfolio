@@ -7,8 +7,9 @@ import { useEffect, createContext } from 'react';
 import Header from './Components/Header/Header/Header';
 import About from './Components/About/About';
 import Project from './Components/Project/Project';
-import Blogs from './Components/Blogs/Blogs';
 import Contact from './Components/Contact/Contact';
+import BlogDetails from './Components/Blogs/BlogDetails';
+
 // import Home from './Components/Home/Home';
 export const UserContext = createContext();
 function App() {
@@ -30,7 +31,7 @@ function App() {
         <Header/>
         <About/>
         <Project/>
-        <Blogs/>
+        <BlogDetails/>
         <Contact/>
       </div>
     // </UserContext.Provider>
